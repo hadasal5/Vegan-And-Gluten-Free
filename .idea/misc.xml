@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.1" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/drawable/buttonshape.xml" value="0.1" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/drawable/ic_launcher_background.xml" value="0.1" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_actual_blog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_actual_buis.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_actual_recipe.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_actual_rest.xml" value="0.12310030395136778" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_blog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_blog_profile.xml" value="0.152" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_buis.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_buis_profile.xml" value="0.2" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_forget.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_forgot.xml" value="0.264" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_google_maps.xml" value="0.1" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_main_menu.xml" value="0.2" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_map.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_maps.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_maps2.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_maps3.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_maps_activitytry.xml" value="0.24365942028985507" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_profile.xml" value="0.176" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_recipe.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_recipe_profile.xml" value="0.264" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_rest.xml" value="0.19708029197080293" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_rest_profile.xml" value="0.2" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_sign_up2.xml" value="0.176" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/activity_upload_recipe.xml" value="0.2" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/bloglistlayout.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/buislistlayout.xml" value="0.1480978260869565" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/content_sign_up.xml" value="0.21927083333333333" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/fragment_actual_blog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/fragment_actual_buis.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/fragment_actual_recipe.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/fragment_actual_rest.xml" value="0.176" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/fragment_blog_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/fragment_buis_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/fragment_first.xml" value="0.1" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/fragment_recipe_list.xml" value="0.1" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/fragment_rest_list.xml" value="0.1" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/fragment_second.xml" value="0.264" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/reciptlistlayout.xml" value="0.24010416666666667" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/layout/restlistlayout.xml" value="0.1" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/menu/search_menu.xml" value="0.1" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/menu/search_menu_blog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/menu/search_menu_buis.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/menu/search_menu_recipe.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1" />
+        <entry key="..\:/Users/hadas/AndroidStudioProjects/VeganAndGlutenFree/app/src/main/res/mipmap-anydpi-v26/ic_launcher_vgf.xml" value="0.113" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

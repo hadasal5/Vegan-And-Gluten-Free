@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainphoto"
+    android:orientation="vertical"
+    tools:context=".UploadRecipe">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="133dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+            <Button
+                android:id="@+id/buttonReturnToMainRecipeListProfile"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="350dp"
+                android:backgroundTint="#538832"
+                android:gravity="center"
+                android:text=">"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/recipe_profile_image"
+                android:layout_width="138dp"
+                android:layout_height="115dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:layout_marginLeft="130dp"
+                android:layout_marginTop="60dp"
+                android:background="@drawable/profile_image" />
+
+            <EditText
+                android:id="@+id/recipe_profile_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="שם המתכון"
+                android:inputType="text"
+                android:minHeight="20dp" />
+
+            <EditText
+                android:id="@+id/recipe_profile_user_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="שם מעלה המתכון"
+                android:inputType="text"
+                android:minHeight="20dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <EditText
+                    android:id="@+id/recipe_profile_prep_time"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:ems="4"
+                    android:gravity="center"
+                    android:layout_marginLeft="20dp"
+                    android:hint="זמן הכנה"
+                    android:inputType="text"
+                    android:minHeight="20dp"/>
+
+
+                <EditText
+                    android:id="@+id/recipe_profile_level"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:ems="4"
+                    android:gravity="center"
+                    android:layout_marginLeft="10dp"
+                    android:hint="רמת קושי"
+                    android:inputType="text"
+                    android:minHeight="20dp"/>
+                <EditText
+                    android:id="@+id/recipe_profile_serving"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:ems="4"
+                    android:gravity="center"
+                    android:hint="כמות"
+                    android:inputType="text"
+                    android:minHeight="20dp"/>
+
+                <EditText
+                    android:id="@+id/recipe_profile_type"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:ems="4"
+                    android:gravity="center"
+                    android:hint="סוג"
+                    android:inputType="text"
+                    android:minHeight="20dp"/>
+
+            </LinearLayout>
+            <EditText
+                android:id="@+id/recipe_profile_ingredients"
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:layout_marginEnd="11dp"
+                android:layout_marginBottom="4dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="מרכיבים"
+                android:inputType="text"
+                android:minHeight="20dp"/>
+            <EditText
+                android:id="@+id/recipe_profile_directions"
+                android:layout_width="400dp"
+                android:layout_height="100dp"
+                android:layout_marginBottom="16dp"
+                android:ems="10"
+                android:gravity="center"
+                android:hint="הוראות הכנה"
+                android:inputType="text"
+                android:minHeight="20dp"/>
+            <Button
+                android:id="@+id/buttonUpdateRecipe"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="140dp"
+                android:layout_marginBottom="4dp"
+                android:backgroundTint="#538832"
+                android:text="העלה מתכון"/>
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

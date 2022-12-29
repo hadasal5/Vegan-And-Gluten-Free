@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mainphoto"
+    android:orientation="vertical"
+    tools:context=".RecipeProfile">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="9dp">
+
+
+            <Button
+                android:id="@+id/buttonreturnToRecipeList"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginLeft="350dp"
+                android:backgroundTint="#538832"
+                android:gravity="center"
+                android:text=">"
+                android:textAlignment="center"
+                android:textSize="20sp" />
+
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/recipe_profile_image"
+                android:layout_width="194dp"
+                android:layout_height="135dp"
+                android:layout_marginLeft="105dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/profile_image" />
+
+            <TextView
+                android:id="@+id/recipe_name"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="15dp"
+                android:text="שם המתכון"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="25sp"
+                android:textStyle="bold"
+
+                />
+            <TextView
+                android:id="@+id/user_name_recipe"
+                android:layout_width="147dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginTop="10dp"
+                android:text="שם הכותב:"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="79dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginTop="32dp"
+                android:layout_marginRight="20dp">
+
+                <TextView
+                    android:id="@+id/recipe_type"
+                    android:layout_width="180dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="222dp"
+                    android:text="סוג:"
+                    android:textAllCaps="false"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/recipe_serving"
+                    android:layout_width="147dp"
+                    android:layout_height="wrap_content"
+                    android:text="כמות:"
+                    android:textAllCaps="false"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/recipe_level"
+                    android:layout_width="147dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="245dp"
+                    android:layout_marginTop="50dp"
+                    android:text="רמת קושי:"
+                    android:textAllCaps="false"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/recipe_prep_time"
+                    android:layout_width="147dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:text="זמן הכנה:"
+                    android:textAllCaps="false"
+                    android:textSize="16dp"
+                    android:textStyle="bold" />
+
+
+
+            </RelativeLayout>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="180dp"
+                android:layout_marginTop="20dp"
+                android:text="מצרכים:"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/recipe_ingredients"
+                android:layout_width="384dp"
+                android:layout_height="107dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="20dp"
+                android:text="מצרכים:"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="165dp"
+                android:layout_marginTop="20dp"
+                android:text="הוראות הכנה:"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+            <TextView
+                android:id="@+id/recipe_directions"
+                android:layout_width="381dp"
+                android:layout_height="180dp"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="10dp"
+                android:text="הוראות הכנה:"
+                android:textAlignment="center"
+                android:textAllCaps="false"
+                android:textSize="18sp"
+                android:scrollbars="vertical" />
+
+
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
